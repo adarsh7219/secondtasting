@@ -1,0 +1,2749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startscreen</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="strsrn-body">
+    
+    <header class="">
+        <div class="container-fluid">
+            <div class="header-top">
+                <!-- <div class="d-flex justify-content-between screen-seticon mt-2">
+                    <button> <i class="fas fa-chevron-left"></i> </button>
+                    <button onclick="toggleFullscreen()"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+                    <button><i class="fa-solid fa-down-left-and-up-right-to-center"></i></button>
+                    <button data-bs-toggle="modal" data-bs-target="#settingspopup"><i class="fa-solid fa-gear"></i></button>
+                    <button><i class="fa-solid fa-right-to-bracket"></i></button>
+                </div> -->
+                <div class="d-flex justify-content-between screen-seticon mt-2">
+                    <a href="select-language.html" class="text-decoration-none text-white p-1"> <i class="fa-solid fa-globe"></i> </a>
+                    <button > <i class="fa-solid fa-flag"></i> </button>
+                    <button data-bs-toggle="modal" data-bs-target="#screensetting"> <i class="fa-solid fa-video"></i> </button>
+                    <button data-bs-toggle="modal" data-bs-target="#settingspopup"> <i class="fa-solid fa-gear"></i> </button>
+                    <button><i class="fa-solid fa-right-to-bracket"></i></button>
+                </div>
+            </div>
+            <div class="home-logo-holder text-center">
+                <img src="images/r-logo-big.svg" alt="Reallives" />
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"> </div>
+
+    <main class="strsrn-body-main">
+
+        <div class="container-fluid">
+            <div class="stcrn-headline">
+                <p>There were 255 times you were born, but only 24 lives were completed from birth to death.</p>
+            </div>
+
+            <div class="container">
+
+                <div class="strsrn-topsec">
+                    <div class="row justify-content-md-center normal-font   d-flex flex-nowrap">
+
+                        <div class="col stcrn-box-center">
+                            <a href="select-born-country.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img  src="images/startscreen/random-life.svg">
+                                </div>
+                                <div class="w-100">
+                                   
+                                        <p class="mb-0 "> Live a random life </p> 
+                                    
+                                    
+                                </div>
+                            </a> 
+                        </div>
+                          
+                        <div class="col  stcrn-box-center">
+                            <button class="btn border-0 text-white" data-bs-toggle="modal" data-bs-target="#designlife1">
+                                <div class="mb-2">
+                                    <!-- < img src="images/startscreen/design-life.svg" alt="Gameplay"> -->
+                                    <img src="images/startscreen/design-life.svg" alt="Gameplay">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0 ">Design a life</p> 
+                                </div>
+                            </button>
+                        </div>
+                
+                        <div class="col stcrn-box-center">
+                            <button class="btn border-0 text-white" data-bs-toggle="modal" data-bs-target="#usingunsdgs1">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/sdg_life.svg" alt="Gameplay">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Live a life using UN SDG's </p> 
+                                </div>
+                            </button>
+                        </div>
+                        
+                
+                        <div class="col stcrn-box-center">
+                            <button class="btn border-0 text-white" data-bs-toggle="modal" data-bs-target="#countrygroups1">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/17_years_born.svg" alt="Gameplay">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Live a life using country groups</p>
+                                </div>
+                            </button>
+                        </div>
+        
+                        <div class="col stcrn-box-center">
+                            <a href="challenge-yourself.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/country-group-life.svg">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0" > Challenge yourself </p> 
+                                </div>
+                            </a>
+                        </div>
+        
+                        <div class="col stcrn-box-center">
+                            <div class="mb-2">
+                                <img src="images/startscreen/assignment-life.svg" alt="Gameplay">
+                            </div>
+                            <div class="w-100">
+                                <p class="mb-0"> Live a random life 17 years old </p> 
+                            </div>
+                        </div> 
+        
+                    </div>
+                </div>
+                
+                <div class="clearfix"> </div>
+
+                <div class="strsrn-midsec m-auto">
+                    <div class="row justify-content-md-center content-medium-font">
+
+                        <div class="col stcrn-box-center">
+                            <a href="life-book.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/life-book.svg" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Life book</p> 
+                                </div>
+                            </a> 
+                        </div>
+                          
+                        <div class="col stcrn-box-center">
+                            <a href="life-data.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/life-data.svg" alt="Gameplay" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Life data</p> 
+                                </div>
+                            </a> 
+                        </div>
+                
+                        <div class="col stcrn-box-center">
+                            <a href="life-diary.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/life-diary.svg" alt="Gameplay" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Life diary</p> 
+                                </div>
+                            </a> 
+                        </div>
+                
+                        <div class="col stcrn-box-center">
+                            <a href="realLives-passport.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/rl-passoprt.svg" alt="Gameplay" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> RealLives passport</p> 
+                                </div>
+                            </a> 
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="clearfix"> </div>
+
+                <div class="strsrn-btmsec m-auto">
+                    <div class="row justify-content-md-center content-medium-font">
+
+                        <div class="col stcrn-box-center">
+                            <a href="incomplete-lives.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/incomplete-lives.svg" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Incomplete lives</p> 
+                                </div>
+                            </a> 
+                        </div>
+                          
+                        <div class="col stcrn-box-center">
+                            <a href="completed-lives.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/completed-lives.svg" alt="Gameplay" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Completed lives</p> 
+                                </div>
+                            </a> 
+                        </div>
+                
+                        <div class="col stcrn-box-center">
+                            <a href="deleted-lives.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/deleted-lives.svg" alt="Gameplay" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0"> Deleted lives</p> 
+                                </div>
+                            </a> 
+                        </div>
+                
+                        <div class="col stcrn-box-center">
+                            <a href="data-tools.html" class="text-white text-decoration-none">
+                                <div class="mb-2">
+                                    <img src="images/startscreen/tools-lives.svg" alt="Gameplay" class="iconsizemain">
+                                </div>
+                                <div class="w-100">
+                                    <p class="mb-0">Data tools</p> 
+                                </div>
+                            </a> 
+                        </div>
+        
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- designlife1 popup start 1 -->
+    <div class="modal fade popup-modal-bg" id="designlife1" tabindex="-1" aria-labelledby="designlife1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> WHO DO YOU WANT TO BE? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-6">
+                                <div class="text-center normal-font mb-3">
+                                    <p>Select a country where you would like to be born: </p>
+                                    <input class="form-control inputfild-style text-center w-50 m-auto" type="text" placeholder="Search country by name">
+                                </div>
+
+                                <div class="select-opt-outer country-flag-list-outer scrollbar-2">
+                                    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 country-flag-list normal-font">
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ag.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> Shuffle country </button> 
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> A-Z country </button> 
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"  data-bs-toggle="modal" data-bs-target="#designlife2"> Select your city </button> 
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="map-fullsec">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690635113665!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- designlife1 popup end 1 -->
+
+    <!-- designlife2 popup start 2 -->
+    <div class="modal fade popup-modal-bg" id="designlife2" tabindex="-1" aria-labelledby="designlife2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> WHO DO YOU WANT TO BE? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-6">
+                                <div class="text-center mb-3">
+                                    <p class="mb-2"> Select a city in India </p>
+                                    <input class="form-control inputfild-style text-center w-50 m-auto" type="text" placeholder="Search city by name">
+                                </div>
+
+                                <div class="select-opt-outer challenge-affects-outer scrollbar-2">
+                                    <div class="button-group select-opt-inner normal-font gap-3">
+                                        <label class="button-group-btn ">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Mazowe</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Zvishavane</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Beitbridge</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Karoi</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Mutare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Shamva</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kwekwe</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Gwanda</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Chinhoyi</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Chitungwiza</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Victoria Falls</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Gwtru</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Charedzi</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kabira</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Harare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Hwange</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Plumtree</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Bulawayo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Harare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Hwange</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Plumtree</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Bulawayo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Harare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Hwange</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Plumtree</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Bulawayo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4" data-bs-toggle="modal" data-bs-target="#designlife3"> Choose a Religion </button> 
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="map-fullsec mt-3">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690635113665!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- designlife2 popup end 2 -->
+
+    <!-- designlife3 popup start 3 -->
+    <div class="modal fade popup-modal-bg" id="designlife3" tabindex="-1" aria-labelledby="designlife3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> WHO DO YOU WANT TO BE? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="container-fluid">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-6"> 
+                                <div class="stcrn-headline">
+                                    <p>Select your religion</p>
+                                </div>
+                                <div class="position-absolute start-0 ms-2">
+                                    <button class="btn border-0 btn-style modal-btn-text text-white"> <i class="fas fa-arrow-left"></i> Back </button>
+                                </div>
+                                <div class="select-opt-outer challenge-affects-outer scrollbar-2">
+                                    <div class="button-group select-opt-inner normal-font gap-3">
+                                        <label class="button-group-btn-md ">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label-md">Hindu <br> 79%</span>
+                                        </label>
+                                        <label class="button-group-btn-md">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label-md">Islam <br> 11%</span>
+                                        </label>
+                                        <label class="button-group-btn-md">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label-md">Buddhism <br> 5.8%</span>
+                                        </label> 
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4" data-bs-toggle="modal" data-bs-target="#designlife4"> Select your characteristics </button>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="map-fullsec mt-3">
+                                    <img src="images/wiki-img.svg" class="img img-fluid w-100" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- designlife3 popup end 3 -->
+
+    <!-- designlife4 Popup start 4 -->
+    <div class="modal fade popup-modal-bg" id="designlife4" tabindex="-1" aria-labelledby="designlife4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen ">
+            <div class="modal-content popup-window">
+                <div class="modal-header box-gloss">
+                    <h5 class="modal-title content-font1" id="educationModalLabel"> WHO DO YOU WANT TO BE? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white scrollbar-hidden">
+                    
+                    <section class="">
+
+                        <div class="row career-popup-outer mt-3">
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="row">
+
+                                    <div class="col-6">
+                                        <div class="selectcharacter-contentbox-outer ">
+                                            <div class="selectcharacter-box-head box-gloss">
+                                                <p class="mb-0 leftpaddig">GENDER </p> 
+                                            </div>
+                                            <div class="selectcharacter-box-holder normal-font gap-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="gender">
+                                                    <label class="form-check-label" >
+                                                        Mail
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="gender" checked>
+                                                    <label class="form-check-label" >
+                                                        Female
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-6">
+                                        <div class="selectcharacter-contentbox-outer ">
+                                            <div class="selectcharacter-box-head box-gloss">
+                                                <p class="mb-0 leftpaddig">LOCALE</p> 
+                                            </div>
+                                            <div class="selectcharacter-box-holder normal-font gap-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="locale">
+                                                    <label class="form-check-label" >
+                                                        Urban
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="locale" checked>
+                                                    <label class="form-check-label" >
+                                                        Rural
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    
+                                </div> 
+                                
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="selectcharacter-contentbox-outer w-100">
+                                    <div class="selectcharacter-box-head box-gloss">
+                                        <p class="mb-0 text-center"> 
+                                            Do you want to put the name of the character of your choice or let RealLives database choose one for you?
+                                        </p>
+                                    </div>
+                                    <div class="selectcharacter-rightbox-holder">
+                                        
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="choosedata">
+                                                    <label class="form-check-label" >
+                                                        Choose from RealLives data
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="choosedata" checked>
+                                                    <label class="form-check-label" >
+                                                        I will Choose
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="choosecharacter-opt scrollbar-2 mt-3 normal-font">
+                                            <div class="row">
+                                                <div class="col-6"> 
+                                                    <div class="">
+                                                        <p>Name</p>
+                                                    </div>
+                                                    <div class="characterbox-height scrollbar-2">
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" checked>
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharnm" >
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6"> 
+                                                    <div class="">
+                                                        <p>Surname</p>
+                                                    </div>
+                                                    <div class="characterbox-height scrollbar-2">
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm" checked>
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check mb-2">
+                                                            <input class="form-check-input" type="radio" name="choosecharsrnm">
+                                                            <label class="form-check-label" >
+                                                                demo 1
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div> 
+
+                                    </div>
+
+                                </div>
+
+                            </div> 
+
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 w-25 py-2" data-bs-toggle="modal" data-bs-target="#designlife5"> Next </button>
+                        </div>
+
+                    </section>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- designlife4 Popup end 4 -->
+
+    <!-- designlife4 Popup start 5 -->
+    <div class="modal fade popup-modal-bg" id="designlife5" tabindex="-1" aria-labelledby="designlife5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen ">
+            <div class="modal-content popup-window">
+                <div class="modal-header box-gloss">
+                    <h5 class="modal-title content-font1" id="educationModalLabel"> WHO DO YOU WANT TO BE? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white scrollbar-hidden">
+                    
+                    <section class="">
+
+                        <div class="row career-popup-outer mt-3  col-7"  style="margin: auto;">
+
+                            <div class="col-lg-12">
+                                <div class="selectcharacter-contentbox-outer w-100 pb-2">
+                                    <div class="selectcharacter-box-head box-gloss">
+                                        <p class="mb-0 leftpaddig">PERSONALITY ATTRIBUTES</p>
+                                    </div>
+                                    <div class="selectpersonality-box-holder scrollbar-2 normal-font">
+                                        
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="col-auto">
+                                                <span>Artistic</span>
+                                            </div> 
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div> 
+                                        </div>
+
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="col-auto">
+                                                <span>Happiness </span>
+                                            </div> 
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="col-auto">
+                                                <span>Intelligence</span>
+                                            </div> 
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div> 
+                                        </div>
+                                        <div class="d-flex gap-3 mb-3"> 
+                                            <div class="col-auto">
+                                                <span>Musical</span>
+                                            </div>
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div> 
+                                        </div>
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="col-auto">
+                                                <span>Athletic</span>
+                                            </div> 
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div> 
+                                        </div>
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="col-auto">
+                                                <span>Strength</span>
+                                            </div> 
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div> 
+                                        </div>
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="col-auto">
+                                                <span>Physical endurance</span>
+                                            </div> 
+                                            <input type="range" class="w-100" min="0" max="5" step="0.5" id="customRange">
+                                            <div class="col-auto">
+                                                <span>72</span>
+                                            </div> 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                        <div class="text-center btmfixed-button mt-3">
+                            <a href="#" class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 w-25 py-2"> Be born </a>
+                        </div>
+                    </section>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- designlife4 Popup end 5 -->
+
+    <!-- usingunsdgs popup start 1 -->
+    <div class="modal fade popup-modal-bg" id="usingunsdgs1" tabindex="-1" aria-labelledby="usingunsdgs1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
+            <div class="modal-content popup-window">
+                <div class="d-flex justify-content-end pe-2">
+                    <!-- <h5 class="modal-title content-font1" id="expenditureModalLabel"> <img src="images/career-group/action-finanace.png" class="headingimage" alt=""/> FAMILY FINANCE </h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+
+                        <div class="row ">
+
+                            <div class="designlife-goal-outer ">
+                                <div class="designlife-title-img text-center mb-2">
+                                    <img src="images/webapp/title-image.svg" alt="Gameplay" class="img img-fluid mb-2" />
+                                    <p class="normal-font text-blue">Choose a sustainable development goal (SDG) challenge to live a life in a country.</p>
+                                </div>
+                                <div class="designlife-goal-inner mb-2">
+                
+                                    <div class="designlife-color-box lifebox-1 ">
+                                        <button class="btn designlife-outer-btn" data-bs-toggle="modal" data-bs-target="#usingunsdgs2">
+                                            <!-- <div class="d-flex ">
+                                                <p class="designlife-sr mb-0 me-1">1</p>
+                                                <p class="designlife-goal-box-text">No <br> Poverty  </p>
+                                            </div>
+                                            <div class="designlife-box-content m-auto text-center">
+                                                <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                                            </div> -->
+                                            <img src="images/sdgs-goal/sdg1_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg2_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg3_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg4_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg5_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg6_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg7_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg8_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg9_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg10_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg11_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg12_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg13_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg14_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg15_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg16_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="designlife-color-box ">
+                                        <button class="btn designlife-outer-btn">
+                                            <img src="images/sdgs-goal/sdg17_en.png" />
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- usingunsdgs popup end 1 -->
+
+    <!-- usingunsdgs popup start 2 -->
+    <div class="modal fade popup-modal-bg" id="usingunsdgs2" tabindex="-1" aria-labelledby="usingunsdgs2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
+            <div class="modal-content popup-window">
+                <div class="d-flex justify-content-end pe-2">
+                    <!-- <h5 class="modal-title content-font1" id="expenditureModalLabel"> <img src="images/career-group/action-finanace.png" class="headingimage" alt=""/> FAMILY FINANCE </h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="designlife-goal-outer ">
+                            <div class="designlife-title-img text-center mb-2">
+                                <img src="images/webapp/title-image.svg" alt="Gameplay" class="img img-fluid mb-2" />
+                                <p class="normal-font text-blue">Selected countries reflecting the SDG score for the Goal 1</p>
+                            </div>
+
+                            <div class="text-center normal-font">
+                                <p>
+                                    Countries divided in <span class="text-red">Major challenges</span>, <span class="text-orange">Significant challenges</span>, <span class="text-yellow">Challenges remain</span>, <span class="text-green">Goal achievement</span> and <span class="text-gray">No data available</span> category
+                                </p>
+                            </div>
+
+                            <div class="graph-section">  
+                                <div class="map-graph text-center pt-3">
+                                    <img src="images/map-graph.svg" class="img img-fluid"/>
+                                </div> 
+                            </div>
+
+                            <div class="text-end mt-2">
+                                <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"  data-bs-toggle="modal" data-bs-target="#usingunsdgs3"> Next </button>
+                            </div>
+                            
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- usingunsdgs popup end 2 -->
+
+    <!-- usingunsdgs popup start 3 -->
+    <div class="modal fade popup-modal-bg" id="usingunsdgs3" tabindex="-1" aria-labelledby="usingunsdgs3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content popup-window">
+                <div class="d-flex justify-content-end pe-2">
+                    <!-- <h5 class="modal-title content-font1" id="expenditureModalLabel"> <img src="images/career-group/action-finanace.png" class="headingimage" alt=""/> FAMILY FINANCE </h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <div class="d-flex flex-wrap gap-3 align-items-center ">
+                                    <div class="designlife-color-box lifebox-1 ">
+                                        <!-- <button class="btn designlife-outer-btn">
+                                            <div class="d-flex ">
+                                                <p class="designlife-sr mb-0 me-1">1</p>
+                                                <p class="designlife-goal-box-text">No <br> Poverty  </p>
+                                            </div>
+                                            <div class="designlife-box-content text-center">
+                                                <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                                            </div>
+                                        </button> -->
+                                        <button class="btn designlife-outer-btn" data-bs-toggle="modal" data-bs-target="#usingunsdgs2">
+                                            <!-- <div class="d-flex ">
+                                                <p class="designlife-sr mb-0 me-1">1</p>
+                                                <p class="designlife-goal-box-text">No <br> Poverty  </p>
+                                            </div>
+                                            <div class="designlife-box-content m-auto text-center">
+                                                <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                                            </div> -->
+                                            <img src="images/sdgs-goal/sdg1_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="sdg-subgoal-right-text normal-font ">
+                                        <p class="text-dark-blue fw-medium mb-2">No Poverty</p>
+                                        <p class="mb-0 ">Goal 1 calls for an end to poverty in all its manifestations by 2030.It also aims to ensure social protection for the poor and vulnerable, increase access to basic services, and support people harmed by climate-related extreme events and other economic, social, and environmental shocks and disasters.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="subgoal-list-bg subgoal-list-inner normal-font">
+                                    <div class="text-white pt-0">
+                                        <p>Select a SDG subgoal</p>
+                                    </div>
+                    
+                                    <div class="sdg-subgoal-list">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item list-group-item-action active" aria-current="true">1.1:Poverty headcount ratio at $1.90/day(%)</li>
+                                            <li class="list-group-item list-group-item-action">1.2:Poverty headcount ratio at $3.20/day(%)</li>
+                                            <li class="list-group-item list-group-item-action">1.3:Poverty rate after taxes and transfers(%)</li>
+                                          </ul>
+                                    </div>
+                                    <div class="text-end mt-2">
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"   data-bs-toggle="modal" data-bs-target="#usingunsdgs4"> Next </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- usingunsdgs popup end 3 -->
+
+    <!-- usingunsdgs popup start 4 -->
+    <div class="modal fade popup-modal-bg" id="usingunsdgs4" tabindex="-1" aria-labelledby="usingunsdgs4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content popup-window">
+                <div class="d-flex justify-content-end pe-2">
+                    <!-- <h5 class="modal-title content-font1" id="expenditureModalLabel"> <img src="images/career-group/action-finanace.png" class="headingimage" alt=""/> FAMILY FINANCE </h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="designlife-goal-outer ">
+                            <div class="designlife-title-img text-center mb-2">
+                                <img src="images/webapp/title-image.svg" alt="Gameplay" class="img img-fluid mb-2" />
+                                <p class="normal-font text-blue">Selected countries reflecting the SDG score for the Goal 1</p>
+                            </div>
+
+                            <div class="sdg-subgoal-top mt-3 mb-3">
+                                <div class="d-flex gap-3 align-items-center justify-content-center">
+                                    <div class="designlife-color-box lifebox-1 ">
+                                        <!-- <button class="btn designlife-outer-btn">
+                                            <div class="d-flex ">
+                                                <p class="designlife-sr mb-0 me-1">1</p>
+                                                <p class="designlife-goal-box-text">No <br> Poverty  </p>
+                                            </div>
+                                            <div class="designlife-box-content text-center">
+                                                <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                                            </div>
+                                        </button> -->
+                                        <button class="btn designlife-outer-btn" data-bs-toggle="modal" data-bs-target="#usingunsdgs2">
+                                            <!-- <div class="d-flex ">
+                                                <p class="designlife-sr mb-0 me-1">1</p>
+                                                <p class="designlife-goal-box-text">No <br> Poverty  </p>
+                                            </div>
+                                            <div class="designlife-box-content m-auto text-center">
+                                                <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                                            </div> -->
+                                            <img src="images/sdgs-goal/sdg1_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="sdg-subgoal-right-text">
+                                        <p class="normal-font mb-0 fw-semibold">SDG Subgoal '1.1 Poverty headcount ratio at $1.90/day (%)' distribution</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center normal-font ">
+                                <p>
+                                    Countries divided in <span class="text-red">Major challenges</span>, <span class="text-orange">Significant challenges</span>, <span class="text-yellow">Challenges remain</span>, <span class="text-green">Goal achievement</span> and <span class="text-gray">No data available</span> category
+                                </p>
+                            </div>
+
+                            <div class="subgoal-graph-section ">
+                                
+                                <div class="subgoal-details-outer"> 
+                                    <div class="subgoal-table table-responsive">
+                                        <table class="table table-bordered align-middle text-white normal-font">
+                                            <thead class="align-middle">
+                                              <tr>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">Country Count</th>
+                                                <th scope="col">Min. <i class="fa-solid fa-circle-info"></i> </th>
+                                                <th scope="col">Max. <i class="fa-solid fa-circle-info"></i></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td class="td-black text-red">Red</td>
+                                                <td class="">43</td>
+                                                <td>13.77 (Vanuatu)</td>
+                                                <td>76.38 (Madagascar)</td>
+                                              </tr>
+                                              <tr>
+                                                <td class="td-black text-orange">Orange</td>
+                                                <td>4</td>
+                                                <td>8.61 (Suriname)</td>
+                                                <td>12.09 (Djibouti)</td>
+                                              </tr>
+                                              <tr>
+                                                <td class="td-black text-yellow">Yellow</td>
+                                                <td>22</td>
+                                                <td>2.03 ( Macedonia)</td>
+                                                <td>6.66 (Nepl).</td>
+                                              </tr>
+                                              <tr>
+                                                <td class="td-black text-green">Green</td>
+                                                <td>87</td>
+                                                <td>0 (Uruguay)</td>
+                                                <td>1.93 (Egypt)</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div> 
+                                </div>
+            
+                                <div class="map-graph text-center pt-3">
+                                    <img src="images/subgoal-details-graph.svg" class="img img-fluid"/>
+                                </div>
+
+                            </div>
+
+                            <div class="text-end mt-2">
+                                <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> Select a country From the map </button>
+                                <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4" data-bs-toggle="modal" data-bs-target="#usingunsdgs5"> Select a country from the list </button>
+                            </div>
+                            
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- usingunsdgs popup end 4 -->
+
+    <!-- usingunsdgs popup start 5 -->
+    <div class="modal fade popup-modal-bg" id="usingunsdgs5" tabindex="-1" aria-labelledby="usingunsdgs5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
+            <div class="modal-content popup-window">
+                <div class="d-flex justify-content-end pe-2">
+                    <!-- <h5 class="modal-title content-font1" id="expenditureModalLabel"> <img src="images/career-group/action-finanace.png" class="headingimage" alt=""/> FAMILY FINANCE </h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="designlife-goal-outer ">
+
+                            <div class="text-center">
+                                <div class="designlife-title-img text-center mb-2">
+                                    <img src="images/webapp/title-image.svg" alt="Gameplay" class="img img-fluid mb-2" />
+                                </div>
+
+                                <div class="d-flex gap-3 flex-column align-items-center justify-content-center">
+                                    <div class="designlife-color-box lifebox-1 "> 
+                                        <button class="btn designlife-outer-btn" > 
+                                            <img src="images/sdgs-goal/sdg1_en.png" />
+                                        </button>
+                                    </div>
+                
+                                    <div class="sdg-subgoal-right-text">
+                                        <p class="normal-font"> '1.1 Poverty headcount ratio at $1.90/day (%)' </p>
+                                    </div>
+                                </div>
+
+                                <div class="normal-font">
+                                    <p class=""> Choose a country from one of the catagories below</p>
+                                </div>
+
+                            </div>
+
+                            <div class="text-center normal-font">
+                                <p>
+                                    Countries divided in <span class="text-red">Major challenges</span>, <span class="text-orange">Significant challenges</span>, <span class="text-yellow">Challenges remain</span>, <span class="text-green">Goal achievement</span> and <span class="text-gray">No data available</span> category
+                                </p>
+                            </div>
+                            
+                            <div class="choose-country-outer">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
+
+                                    <div class="col">
+                                        <div class="text-center mb-3">
+                                            <button class="btn btn-style bg-red text-white w-100 normal-font "> Major challenges </button>
+                                        </div>
+                                        <div class="choose-opt-btngroup-holder scrollbar-2">
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="text-center mb-3">
+                                            <button class="btn btn-style bg-orange text-white w-100 normal-font "> Significant challenges </button>
+                                        </div>
+                                        <div class="choose-opt-btngroup-holder scrollbar-2">
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="text-center mb-3">
+                                            <button class="btn btn-style bg-yellow text-white w-100 normal-font "> Challenges remain </button>
+                                        </div>
+                                        <div class="choose-opt-btngroup-holder scrollbar-2">
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="text-center mb-3">
+                                            <button class="btn btn-style bg-green text-white w-100 normal-font "> Goal achievement </button>
+                                        </div>
+                                        <div class="choose-opt-btngroup-holder scrollbar-2">
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="text-center mb-3">
+                                            <button class="btn btn-style bg-gray text-white w-100 normal-font "> No data available </button>
+                                        </div>
+                                        <div class="choose-opt-btngroup-holder scrollbar-2">
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                            <button class="btn btn-style "> Comoros</button>
+                                            <button class="btn btn-style "> Austria</button>
+                                            <button class="btn btn-style "> Europe</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="text-end mt-3">
+                                <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4" data-bs-toggle="modal" data-bs-target="#usingunsdgs6"> Select your city </button>
+                            </div>
+                            
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- usingunsdgs popup end 5 -->
+
+    <!-- usingunsdgs popup start 6 -->
+    <div class="modal fade popup-modal-bg" id="usingunsdgs6" tabindex="-1" aria-labelledby="usingunsdgs6ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> EXPERIENCE HOW UN SDG'S CHALLENGING AFFECTS LIVES! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-6">
+                                <div class="text-center mb-3">
+                                    <input class="form-control inputfild-style text-center w-50 m-auto" type="text" placeholder="Search city by name">
+                                </div>
+
+                                <div class="select-opt-outer challenge-affects-outer scrollbar-2">
+                                    <div class="button-group select-opt-inner normal-font gap-3">
+                                        <label class="button-group-btn ">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Mazowe</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Zvishavane</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Beitbridge</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Karoi</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Mutare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Shamva</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kwekwe</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Gwanda</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Chinhoyi</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Chitungwiza</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Victoria Falls</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Gwtru</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Charedzi</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kabira</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Harare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Hwange</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Plumtree</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Bulawayo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Harare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Hwange</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Plumtree</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Bulawayo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Harare</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Hwange</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Plumtree</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Bulawayo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Masvingo</span>
+                                        </label>
+                                        <label class="button-group-btn">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label">Kadom</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4" data-bs-toggle="modal" data-bs-target="#usingunsdgs7"> Choose a Religion </button> 
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="map-fullsec mt-3">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690635113665!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- usingunsdgs popup end 6 -->
+
+    <!-- Live a life using country groups popup start -->
+    <!-- countrygroups1 popup start 1 -->
+    <div class="modal fade popup-modal-bg" id="countrygroups1" tabindex="-1" aria-labelledby="countrygroups1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> EXPERIENCE DISPARITY BY CHOOSING A COUNTRY GROUP! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="container-fluid">
+
+                        <div class="stcrn-headline">
+                            <p>Select a group category where you would like to be born</p>
+                        </div>
+                        
+                        <div class="select-opt-outer challenge-affects-outer scrollbar-2">
+                            <div class="button-group select-opt-inner normal-font gap-3">
+
+                                <button class="btn next-popbtn" data-bs-toggle="modal" data-bs-target="#countrygroups2">Geo Political</button>
+                                <button class="btn next-popbtn" data-bs-toggle="modal" data-bs-target="#countrygroups2">Evangelical Protestantism 10%</button>
+                                <button class="btn next-popbtn" data-bs-toggle="modal" data-bs-target="#countrygroups2">Religious</button>
+                                <button class="btn next-popbtn" data-bs-toggle="modal" data-bs-target="#countrygroups2">Oil, Coal & Energy</button>
+                                <button class="btn next-popbtn">United Nations</button>
+                                <button class="btn next-popbtn">Economics</button>
+                                <button class="btn next-popbtn">Natural Challenge</button>
+                                <button class="btn next-popbtn">Women Rights</button>
+                                <button class="btn next-popbtn">Geo Political</button>
+                                <button class="btn next-popbtn">Geo Political</button>
+                                <button class="btn next-popbtn">Evangelical Protestantism 10%</button>
+                                <button class="btn next-popbtn">Religious</button>
+                                <button class="btn next-popbtn">Oil, Coal & Energy</button>
+                                <button class="btn next-popbtn">United Nations</button>
+                                <button class="btn next-popbtn">Economics</button>
+                                <button class="btn next-popbtn">Natural Challenge</button>
+                                <button class="btn next-popbtn">Women Rights</button>
+                                <button class="btn next-popbtn">Geo Political</button>
+
+                            </div>
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- countrygroups1 popup end 1 -->
+
+    <!-- countrygroups2 popup start 2 -->
+    <div class="modal fade popup-modal-bg" id="countrygroups2" tabindex="-1" aria-labelledby="countrygroups2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> EXPERIENCE DISPARITY BY CHOOSING A COUNTRY GROUP! </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="container-fluid">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-6"> 
+                                <div class="stcrn-headline">
+                                    <p>Select a group where you would like to be born</p>
+                                </div>
+                                <div class="position-absolute start-0 ms-2">
+                                    <button class="btn border-0 btn-style modal-btn-text text-white"> <i class="fas fa-arrow-left"></i> Back </button>
+                                </div>
+                                <div class="select-opt-outer challenge-affects-outer scrollbar-2">
+                                    <div class="button-group select-opt-inner normal-font gap-3">
+                                        <label class="button-group-btn-md ">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label-md">OIC</span>
+                                        </label>
+                                        <label class="button-group-btn-md">
+                                            <input type="radio" name="group"> 
+                                            <span class="button-group-label-md">Run by sharia muslim law</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> Shuffle country groups </button> 
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> A-Z group </button> 
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4" data-bs-toggle="modal" data-bs-target="#countrygroups3"> Select country </button>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="map-fullsec mt-3">
+                                    <img src="images/wiki-img.svg" class="img img-fluid w-100" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- countrygroups2 popup end 2 -->
+
+    <!-- countrygroups3 popup start 3 -->
+    <div class="modal fade popup-modal-bg" id="countrygroups3" tabindex="-1" aria-labelledby="countrygroups3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title content-font1" id="expenditureModalLabel"> WHO DO YOU WANT TO BE? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-6">
+                                <div class="text-center normal-font mb-3">
+                                    <p>Choose a country in 'Run by sharia muslim law' group where you would like to be born</p>
+                                </div>
+                                <div class="mb-2">
+                                    <button class="btn border-0 btn-style modal-btn-text text-white p-0"> <i class="fas fa-arrow-left"></i> Back </button>
+                                </div>
+
+                                <div class="select-opt-outer country-flag-list-outer scrollbar-2">
+                                    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 country-flag-list normal-font">
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ae.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ad.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name">Comoros</p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/ae.svg" class=" " alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Yemen </p>
+                                                </span> 
+                                            </label> 
+                                        </div>
+                    
+                                        <div class="col"> 
+                                            <label class="button-group-btn">
+                                                <input type="radio" name="group">
+                                                <span class="button-group-label btn country-flag-link ">
+                                                    <div class="country-flag-img">
+                                                        <img src="images/country-flag/af.svg" class="" alt="Gameplay">
+                                                    </div>
+                                                    <p class="country-flag-name"> Libya </p>
+                                                </span>
+                                            </label> 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> Generate life random </button>
+                                    <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-4"> Select your city </button> 
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="countrygroups-graph-holder mb-3">
+                                    <p class="normal-font">Graph</p>
+                                    <div class="graph-controls">
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-3"> Population </button>
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-3"> SDG </button>
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-3"> Income GINI </button>
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-3"> Happiness </button>
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-3"> Purchasing Power Parity (PPP) </button>
+                                        <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 px-3"> Human Development Index (HDI) </button>
+                                    </div>
+                                    <div class="">
+                                        <img src="images/graphs/graph-1.svg" class="img img-fluid w-100"/>
+                                    </div>
+                                </div>
+                                <div class="map-normalsec">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690635113665!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- countrygroups3 popup end 3 -->
+    <!-- Live a life using country groups popup end -->
+    
+    <!-- settings popup start -->
+    <div class="modal fade popup-modal-bg" id="settingspopup" tabindex="-1" aria-labelledby="settingspopupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen ">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title fontheading"> <i class="fa-solid fa-gear"></i> SETTING </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white scrollbar-2">
+                    
+                    <section class="">
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 career-popup-outer mt-3">
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Conscience  </p>
+                                    </div>
+                                    <div class="scrollbar-2">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 4
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 5
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 6
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 7
+                                                  </li>
+                                              </ul>
+                                        </div> 
+                                    </div>                                          
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Family and sexuality </p>
+                                    </div>
+                                    <div class="scrollbar-2">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 4
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 5
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 6
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 7
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Govt / Human Rights </p>
+                                    </div>
+                                    <div class="scrollbar-2">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 4
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 5
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 6
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 7
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Natural disasters </p>
+                                    </div>
+                                    <div class="scrollbar-2">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Country and culture </p>
+                                    </div>
+                                    <div class="scrollbar-2">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 4
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 5
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 6
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 7
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 8
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 9
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Crime and abuse </p>
+                                    </div>
+                                    <div class="scrollbar-2 ">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 4
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 5
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 6
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 7
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 8
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 9
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Health Status </p>
+                                    </div>
+                                    <div class="scrollbar-2 ">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 4
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 5
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 6
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 7
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 8
+                                                  </li>
+
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 9
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                    demo 10
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                    </div>                                          
+                                </div> 
+                            </div>
+
+                            <div class="col">
+                                <div class="settings-listbox-outer box-shadow ">
+                                    <div class="settings-listboxhead box-gloss">
+                                        <p class="mb-0 "> <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Vices </p>
+                                    </div>
+                                    <div class="scrollbar-2">
+                                        <div class="career-contentbox">
+                                            <ul class="list-group list-group-flush settings-listbox normal-font1">
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 1
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 2
+                                                </li>
+                                                <li class="list-group-item">
+                                                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                  demo 3
+                                                </li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                          
+                        </div>
+                        <div class="leisure-btn-holder mt-4 text-center">
+                            <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 py-2">Save</button>
+                        </div>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- settings popup end -->
+
+    <!-- Screen settings popup start -->
+    <div class="modal fade popup-modal-bg" id="screensetting" tabindex="-1" aria-labelledby="screensettingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen ">
+            <div class="modal-content popup-window">
+                <div class="modal-header">
+                    <h5 class="modal-title fontheading"> <i class="fa-solid fa-gear"></i> SETTING </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+
+                <div class="modal-body text-white">
+                    
+                    <section class="">
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-3 normal-font">
+
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 1
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-1.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-1" value="" aria-label="...">
+                                    </div>
+                                </div> 
+                            </div>
+        
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 2
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-2.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-2" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 3
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-3.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-3" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 4
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-4.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-4" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 5
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-5.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-5" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 6
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-6.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-6" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 7
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-7.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-7" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="text-center mb-3">
+                                    <div class=" mb-2"> 
+                                        <label class="form-check-label " for="screen-1">
+                                            Screen 8
+                                        </label>
+                                    </div>
+                                    <div class="screen-img mb-3">
+                                        <img src="images/screen-access/screen-8.svg" class="img img-fluid w-100" />
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="screen-8" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                        </div>
+                        <div class="text-center mt-3">
+                            <button class="btn border-0 btn-style modal-btn-text bg-blue text-white mb-2 w-25 py-2"> Save </button>
+                        </div>
+
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Screen settings popup end -->
+
+
+
+    <script src="js/custom.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
